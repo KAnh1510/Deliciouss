@@ -1,0 +1,22 @@
+.form_style {
+  margin: 0 20rem;
+  text-align: center;
+  position: relative;
+}
+.form_style input {
+  border: none;
+  background: linear-gradient(35deg, #494949, #313131);
+  font-size: 1.5em;
+  color: #fff;
+  padding: 1rem 3rem;
+  border-radius: 1rem;
+  outline: none;
+  width: 70%;
+}
+.form_style svg {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(100%, -50%);
+  color: #fff;
+}
