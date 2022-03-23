@@ -1,4 +1,4 @@
-import {BrowserRouter, Link} from 'react-router-dom';
+import {BrowserRouter} from 'react-router-dom';
 import Categories from './components/category/Categories';
 import Pages from './pages/Pages';
 import Search from './components/search/Search';
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
 			<Nav>
 				<GiKnifeFork />
-				<Logo to={"/"} >deliciousss</Logo>
+				<a href='/' className="home" >deliciousss</a>
 			</Nav>
 			<BrowserRouter>
 				<Search />
@@ -21,12 +21,6 @@ function App() {
   );
 }
 
-const Logo = styled.div`
-	text-decoration: none;
-	font-size:1.5rem;
-	font-weight:400;
-	font-family:'Lobster Two', cursive;
-`
 const Nav = styled.div`
 	padding: 4rem 0rem;
 	display: flex;

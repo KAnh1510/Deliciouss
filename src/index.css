@@ -20,6 +20,13 @@ code {
     monospace;
 }
 
+.home {
+  text-decoration: none;
+  font-size      :1.5rem;
+  font-weight    :400;
+  font-family    :'Lobster Two', cursive;
+}
+
 h4 {
   font-size: 1rem;
   color: rgb(56, 56, 56);
